@@ -1,0 +1,108 @@
+/* Resetowanie marginesu, paddingu i modelu pudełkowego dla wszystkich elementów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.section-up {
+    border: 3px solid red;    
+    display: flex;    
+    height: 50px;
+}
+
+.lenovo-logo-img {
+    height: 40px;
+}
+
+.section-up-btn {        
+    background-color: white;
+    border: 3px solid orange;
+    color: #555555;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    
+
+}
+.search-button-img {
+    height: 20px;
+}
+
+.section-middle {
+    align-items: center;
+    background-color: #f2f2f2;
+    display: flex;
+    font-size: 100px;
+    height: 38px;
+    justify-content: flex-end;
+    border: 3px solid rgb(43, 255, 0);        
+    height: 30px;
+}
+
+.section-middle-btn,
+.section-middle-btn-bor {
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 3px solid rgb(0, 110, 255);
+    cursor: pointer;
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    margin: 5px;
+}
+
+.section-middle-btn-bor {
+    border-right: 2px solid  #f2f2f2;
+    border-left: 2px solid  #f2f2f2;
+}
+
+.section-middle-text {
+    font-size: 12px;
+    background-color: white;
+    border: 3px solid rgb(255, 8, 0);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icons-location,
+.icons-contact,
+.icons-user-profile {
+    background-color: white;
+    border: 3px solid orange;
+    height: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section-bottom {
+    background-color: #f2f2f2;
+    border: 3px solid rgb(255, 230, 0);    
+    display: flex;    
+    height: 34px;
+    justify-content: center;
+}
+
+.section-bottom-btn {
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    display: flex;    
+    justify-content: center;
+    padding: 5px 7px;
+    
+}
+.section-bottom-icons {
+    
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
