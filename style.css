@@ -8,10 +8,11 @@
 body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
-.section-up {
-    border: 3px solid red;    
-    display: flex;    
-    height: 50px;
+.section-up {    
+    display: flex;
+    height: 40px;
+    justify-content:flex-start; 
+    text-align: center;
 }
 
 .lenovo-logo-img {
@@ -20,21 +21,40 @@ body {
 
 .section-up-btn {        
     background-color: white;
-    border: 3px solid orange;
+    border: none;
     color: #555555;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
-    justify-content: center;
+    height: 40px;
     margin-bottom: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-    
-
+    padding-left: 14px;
+    padding-right: 14px;
 }
-.search-button-img {
-    height: 20px;
+
+.search-bar {
+    align-items: center;
+    border: 1px solid #777;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.search-input {
+    min-width: 300px;
+    border: none;
+}
+
+.search-button {
+    border: none;
+    background-color: white;
+    padding-right: 5px;
+}
+
+.search-button-img {    
+    height: 18px;
+    border: none;
 }
 
 .section-middle {
@@ -44,7 +64,6 @@ body {
     font-size: 100px;
     height: 38px;
     justify-content: flex-end;
-    border: 3px solid rgb(43, 255, 0);        
     height: 30px;
 }
 
@@ -52,7 +71,7 @@ body {
 .section-middle-btn-bor {
     align-items: center;
     background-color: #f2f2f2;
-    border: 3px solid rgb(0, 110, 255);
+    border: none;
     cursor: pointer;
     display: flex;
     font-size: 13px;
@@ -61,14 +80,12 @@ body {
 }
 
 .section-middle-btn-bor {
-    border-right: 2px solid  #f2f2f2;
-    border-left: 2px solid  #f2f2f2;
+    border-right: 2px solid  #333;
+    border-left: 2px solid  #333;
 }
 
 .section-middle-text {
     font-size: 12px;
-    background-color: white;
-    border: 3px solid rgb(255, 8, 0);
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -76,16 +93,13 @@ body {
 .icons-location,
 .icons-contact,
 .icons-user-profile {
-    background-color: white;
-    border: 3px solid orange;
-    height: 22px;
+    height: 18px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.section-bottom {
-    background-color: #f2f2f2;
-    border: 3px solid rgb(255, 230, 0);    
+.section-bottom {  
+    background-color: #f2f2f2; 
     display: flex;    
     height: 34px;
     justify-content: center;
@@ -97,12 +111,33 @@ body {
     cursor: pointer;
     display: flex;    
     justify-content: center;
-    padding: 5px 7px;
-    
+    padding: 5px 12px;
 }
+
 .section-bottom-icons {
-    
     height: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.background-photo-legion {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.background-photo-text{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    width: 40%;
+    z-index: 10;
+}
+
+.background-photo-name {
+    height: 100px;
 }
