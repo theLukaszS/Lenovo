@@ -127,17 +127,58 @@ body {
 }
 
 .background-photo-text{
-    border: 3px solid red;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     left: 10%;
     position: absolute;
+    
     text-align: left;
     top: 50%;
     width: 40%;
     z-index: 10;
 }
 
+.background-up {
+    display: inline-block;
+}
 .background-photo-name {
     height: 100px;
+
+}
+
+
+.background-btn {
+    
+    justify-content:space-between; 
+    text-align: center;
+}
+
+.background-middle {
+    background-color: rgba(62, 141, 221);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 17px 17px;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    width: 300px;
+}
+
+.background-middle:hover,
+.background-bottom:hover {
+    background-color: rgb(115, 160, 252);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.background-bottom {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #3e8ddd;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 15px;
+    width: 240px;
 }
