@@ -182,3 +182,32 @@ body {
     padding: 15px 15px;
     width: 240px;
 }
+
+.nav-bar-content {
+    background-color: #3e8ddd;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-bar-btn {
+    background-color: #3e8ddd;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 32px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.nav-bar-btn:hover {
+    transform: scale(1.05);
+}
+
+.content-photo-2 {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
