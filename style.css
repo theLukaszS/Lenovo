@@ -246,16 +246,19 @@ body {
 
 }
 
-.content-slider-one {
+.content-slider-one,
+.content-slider-two {
     position: relative; 
 }
 
-.content-slider-photo {
+.content-slider-photo,
+.content-slider-photo-two {
     max-width: 100%;
     height: auto;
 }
 
-.slider-one {
+.slider-one,
+.slider-two {
     display: flex;
     flex-direction: column;    
     left: 5%;
@@ -267,19 +270,22 @@ body {
     
 }
 
-.slider-title-color {
+.slider-title-color,
+.slider-title-color-two {
     color:  #F0C7BF;
     font-size: 30px;
     margin-top: 20px;
 }
 
-.slider-title-white {
+.slider-title-white,
+.slider-title-white-two {
     color: white;
     font-size: 26px;
     margin-top: 20px;
 }
 
-.slider-text {
+.slider-text,
+.slider-text-two {
     color: white;
     font-size: 16px;
     margin-top: 20px;
@@ -290,3 +296,4 @@ body {
     font-size: 12px;
     margin-top: 20px;
 }
+
