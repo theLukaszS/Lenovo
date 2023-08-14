@@ -120,6 +120,11 @@ body {
     padding-right: 7px;
 }
 
+.background-photo {
+    position: relative;
+    overflow: hidden;
+}
+
 .background-photo-legion {
     display: inline-block;
     vertical-align: middle;
@@ -133,7 +138,7 @@ body {
     position: absolute;
     
     text-align: left;
-    top: 50%;
+    top: 40%;
     width: 40%;
     z-index: 10;
 }
@@ -206,8 +211,82 @@ body {
     transform: scale(1.05);
 }
 
+.content-part-one {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-photo-2 {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
     max-width: 100%;
+    height: auto;
+}
+
+.text-content-part-one {
+    color: white;
+    left: 50%;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    transition: opacity 3s ease, transform 3s ease;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+
+.tex-heading {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 14px;
+
+}
+
+.content-slider-one {
+    position: relative; 
+}
+
+.content-slider-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.slider-one {
+    display: flex;
+    flex-direction: column;    
+    left: 5%;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    width: 25%;
+    z-index: 10;
+    
+}
+
+.slider-title-color {
+    color:  #F0C7BF;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.slider-title-white {
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.slider-text {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.slider-text-cd {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
 }
