@@ -325,13 +325,13 @@ body {
   
 .slide[data-active] {
     opacity: 1;
-    z-index: 1;
+    z-index: 5;
     transition-delay: 0ms;
   }
   
 .carousel-button {
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     background: none;
     border: none;
     font-size: 4rem;
@@ -360,4 +360,65 @@ body {
   
 .carousel-button.next {
     right: 1rem;
+}
+
+
+.content-part-two-text{
+    color: #3e8ddd;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items {
+    background: rgb(0, 0, 0, 0.7);
+    margin: 20px;
+    max-width: 22%;
+    padding: 20px;
+    text-align: center;
+}
+
+.items-photo {
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.items-name{
+    color: #3e8ddd;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.items-about{
+    color: white;
+    font-size: 16px;
+    min-height: 100px;
+    padding-bottom: 24px;
+}
+
+.items-btn {
+    background: none;
+    border: 1px solid #3e8ddd;
+    border-radius: 4px;
+    color: #3e8ddd;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 16px 48px;
+    text-align: center;
+}
+
+.items-btn:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
 }
