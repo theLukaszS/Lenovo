@@ -7,8 +7,13 @@
 
 body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
+    
+    background: linear-gradient(45deg, #1a1a1a, #8a8a8a);
 }
-.section-up {    
+
+
+.section-up {
+    background-color: white;
     display: flex;
     height: 40px;
     justify-content:flex-start; 
@@ -400,7 +405,7 @@ body {
 .items-about{
     color: white;
     font-size: 16px;
-    min-height: 100px;
+    min-height: 140px;
     padding-bottom: 24px;
 }
 
@@ -421,4 +426,38 @@ body {
     background-color: white;
     color: black;
     transition: background-color 0.3s ease-in-out;
+}
+
+
+.text-fps {
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.title-fps {
+    color: #3e8ddd;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.info-fps {
+    line-height: 1.8em;
+    margin-bottom: 30px;
+}
+
+.photo-fps {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.photo-game {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    height: auto;
+    width: 131px;
 }
