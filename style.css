@@ -7,7 +7,6 @@
 
 body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    
     background: linear-gradient(45deg, #1a1a1a, #8a8a8a);
 }
 
@@ -141,7 +140,6 @@ body {
     flex-direction: column;    
     left: 10%;
     position: absolute;
-    
     text-align: left;
     top: 40%;
     width: 40%;
@@ -151,11 +149,10 @@ body {
 .background-up {
     display: inline-block;
 }
+
 .background-photo-name {
     height: 100px;
-
 }
-
 
 .background-btn {
     
@@ -250,18 +247,21 @@ body {
 }
 
 .content-slider-one,
-.content-slider-two {
+.content-slider-two,
+.content-slider-three {
     position: relative; 
 }
 
 .content-slider-photo,
-.content-slider-photo-two {
+.content-slider-photo-two,
+.content-slider-photo-three {
     max-width: 100%;
     height: auto;
 }
 
 .slider-one,
-.slider-two {
+.slider-two,
+.slider-three {
     display: flex;
     flex-direction: column;    
     left: 5%;
@@ -273,21 +273,24 @@ body {
 }
 
 .slider-title-color,
-.slider-title-color-two {
+.slider-title-color-two,
+.slider-title-color-three {
     color:  #F0C7BF;
     font-size: 30px;
     margin-top: 20px;
 }
 
 .slider-title-white,
-.slider-title-white-two {
+.slider-title-white-two,
+.slider-title-white-three {
     color: white;
     font-size: 26px;
     margin-top: 20px;
 }
 
 .slider-text,
-.slider-text-two {
+.slider-text-two,
+.slider-text-three {
     color: white;
     font-size: 16px;
     margin-top: 20px;
@@ -428,7 +431,6 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-
 .text-fps {
     color: white;
     margin: 0 auto;
@@ -450,14 +452,41 @@ body {
 
 .photo-fps {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 .photo-game {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
     margin-top: 50px;
     height: auto;
     width: 131px;
+}
+
+.slider-title-blue,
+.slider-title-blue-two,
+.slider-title-blue-three {
+    color: #3e8ddd;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.slider-title-color-white,
+.slider-title-color-white-two,
+.slider-title-color-white-three {
+    color:  #ffffff;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+.slider-one-right,
+.slider-two-right {
+    display: flex;
+    flex-direction: column;    
+    right: 5%;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    width: 25%;
+    z-index: 10;
 }
