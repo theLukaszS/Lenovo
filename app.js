@@ -35,3 +35,4 @@ document.addEventListener("scroll", function() {
       textContent.style.transform = "translate(-50%, -50%)";
   }
 });
+
