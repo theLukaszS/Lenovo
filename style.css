@@ -19,6 +19,47 @@ body {
     text-align: center;
 }
 
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    z-index: 10;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.nav-links {
+    list-style: none;
+    display: none;
+}
+
+.nav-links.active {
+    display: block;
+}
+
+.nav-links li {
+    margin: 10px 0px;
+}
+
+
+
+
+
 .lenovo-logo-img {
     height: 40px;
 }
@@ -717,6 +758,7 @@ body {
     .search-input {
         display: none;
     }
+   
 }
 
 @media (max-width: 1100px) {
@@ -788,6 +830,7 @@ body {
         width: 100px;
         margin-bottom: 40px;
     }
+   
 }
 
 @media (max-width: 830px) {
@@ -815,8 +858,13 @@ body {
     .nav-bar-btn {
         font-size: 14px;
         margin: 22px;
-    }
+    }  
+}
 
+@media (min-width: 769px) {
+    .navbar {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -858,9 +906,100 @@ body {
     .items {
         max-width: 100%;
     }
-    .nav-bar-btn {
-        font-size: 12px;
-        margin: 18px;
+    .nav-bar-content {
+        flex-wrap: wrap;
+        justify-content: center;
     }
+    .nav-bar-btn {
+        font-size: 10px;
+        
+        margin: 5px;
+    }
+
+    .hamburger-icon.active {
+        transform: rotate(45deg);
+        background-color: transparent;
+    }
+
+    .hamburger-icon.active::before,
+    .hamburger-icon.active::after {
+        transform: rotate(-90deg);
+        background-color: white;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+    .search-input {
+        display: none;
+    }
+    .search-bar{
+        border: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-content-part-one,
+    .text-content-last-part-one,
+    .content-part-one {
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    .tex-heading,
+    .tex-heading-last {
+        padding-top: 150px;
+    }
+    .content-photo-2,
+    .content-last-photo-2 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .content-part-two-text {
+        padding-top: 0;
+    }
+    .photo-game {
+        height: auto;
+        width: 40px;
+    }
+
+    
+    .text-content-last-part-one,
+    .content-last-part-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+        padding-bottom: 0;    
+    }
+    
+    .tex-heading-last {
+        padding-top: 200px;
+    }
+    
+    .content-last-photo-2 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .content-part-two-text {
+        padding-top: 0;
+    }
+    .footer-up-center {
+        display: none;
+    }
+
     
 }

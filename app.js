@@ -1,10 +1,10 @@
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const navLinks = document.querySelector('.nav-links');
 
-
-
-
-
-
-
+hamburgerIcon.addEventListener('click', () => {
+    hamburgerIcon.classList.toggle('active');
+    navLinks.classList.toggle('active');
+});
 
 
 
