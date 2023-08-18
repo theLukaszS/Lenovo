@@ -1,5 +1,17 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener("scroll", function() {
   const textContent = document.querySelector(".text-content-part-one");
   const boundingRect = textContent.getBoundingClientRect();
