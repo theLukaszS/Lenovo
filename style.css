@@ -26,6 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: absolute;
     background-color: #333;
     color: white;
     z-index: 10;
